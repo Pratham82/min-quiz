@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Rules</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/Pratham82/min-ui@dev/src/css/minui.css"
+    />
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <nav class="flex justify-around items-center navbar">
+      <div class="flex items-center branding">
+        <a href="../../../index.html">
+          <h4 class="h4">Min-Quiz</h4>
+        </a>
+      </div>
+
+      <div class="searchDiv"></div>
+
+      <ul class="flex items-center pages">
+        <a href="../pages/login.html" class="flex flex-col items-center">
+          <li><i class="far fa-user"></i></li>
+          <li class="pages-title">Profile</li>
+        </a>
+      </ul>
+    </nav>
+    <main class="main-container">
+      <h3 class="h3 text-center">Quiz Rules</h3>
+
+      <div class="flex flex-col items-center">
+        <div>
+          <img src="../assets/svgs/faq.svg" alt="" class="rules-img" />
+        </div>
+        <div class="quiz-topic flex flex-col justify-between m-10 p-20">
+          <p class="h6">
+            <b>1. </b>
+            Complete the quiz in given time
+          </p>
+          <p class="h6">
+            <b>2.</b> You've been given 4 options for each question, choose 1
+            option from given options.
+          </p>
+          <p class="h6"><b>3.</b> For each question you'll get 1 points</p>
+          <p class="h6"><b>4. </b> There will be total 10 questions</p>
+          <p class="h6">
+            <b>5. </b> For passing the quiz you have to give at-least answer 3
+            questions correctly
+          </p>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <a href="./quiz.html">
+          <button class="btn primary-filled-btn quiz-btn">
+            Start Quiz
+            <span class="pl-10">
+              <i class="far fa-arrow-right"></i>
+            </span>
+          </button>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
